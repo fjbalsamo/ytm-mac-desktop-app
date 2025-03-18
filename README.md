@@ -1,4 +1,4 @@
-🎵 YouTube Music Desktop Application for Mac
+# 🎵 YouTube Music Desktop Application for Mac
 
 A simple macOS desktop application for YouTube Music built with Electron.
 
