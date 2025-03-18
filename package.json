@@ -1,0 +1,16 @@
+{
+  "name": "ytm-desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . YoutubeMusic --platform=darwin --arch=arm64 --out=dist",
+    "dist": "npm run pack && electron-installer-dmg dist/YoutubeMusic-darwin-arm64/YoutubeMusic.app YoutubeMusic"
+  },
+  "devDependencies": {
+    "electron": "^35.0.2",
+    "electron-installer-dmg": "^5.0.1",
+    "electron-packager": "^17.1.2"
+  }
+}
